@@ -11,21 +11,21 @@ sum = n3 / 5;
 sum = n4 / 5;
 
 
-console.log("the total is", sum);
+// console.log("the total is", sum);
 
-//this is checking if the first number is greater than the last number 
-console.log(n1 > n4);
+// //this is checking if the first number is greater than the last number 
+// console.log(n1 > n4);
 
-//arithmetic chain
-//this is subtracting the first number from the second number
-console.log(n2 - n1);
+// //arithmetic chain
+// //this is subtracting the first number from the second number
+// console.log(n2 - n1);
 
-//multiplication
-console.log(n3 * 5);
+// //multiplication
+// console.log(n3 * 5);
 
-//remaminder
-const remainder = 100 % 5;
-console.log(`The remainder is 0: ${remainder}.`);
+// //remaminder
+// const remainder = 100 % 5;
+// console.log(`The remainder is 0: ${remainder}.`);
 
 
 
@@ -46,13 +46,13 @@ const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 // if ANY of the numbers is larger than 25.
 
 const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
-console.log(isOver25);
+// console.log(isOver25);
 
-if (isOver25){
-  console.log("Over 25");
-} else{
-  console.log("Not over 25");
-}
+// if (isOver25){
+//   console.log("Over 25");
+// } else{
+//   console.log("Not over 25");
+// }
 
 
 // Check four: all unique numbers
@@ -79,3 +79,36 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+
+  //
+  let distance = 1500; //total miles for the trip
+  let budget = 175; //fuel budget
+  let gallon = 3; //$3 per gallon
+  let scenario1 = 30; //miles per galllon
+  let scenario2 = 28; //miles per gallon
+  let scenario3 =23; //miles per gallon
+  let mph1 = 55;
+  let mph2 = 60;
+  let mph3 = 75;
+
+  //55mph at 30mpg
+ const g = 50; //gallons of fuel for the entire trip
+//  const fpg = 150; //cost of fuel for the entire trip
+if  (distance / scenario1); {
+  console.log(g);
+} 
+//cost of fuel for the entire trip
+// if (g * gallon); {
+// console.log(fpg);
+// }
+// another way to find the total  fuel cost
+let fpg;
+fpg = g * gallon;
+console.log(fpg);
+
+//how long will the trip take in hours 
+
+let hours;
+hours = distance / mph1;
+console.log(hours);
