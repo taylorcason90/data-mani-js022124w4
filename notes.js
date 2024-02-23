@@ -68,7 +68,7 @@ const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 
 const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 
 // Finally, log the results.
-console.log(isValid);
+//console.log(isValid);
 
 
 // Here's another example of how this COULD be done,
@@ -81,7 +81,8 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
 
-  //
+  //Part 2 Practical Math Part 
+
   let distance = 1500; //total miles for the trip
   let budget = 175; //fuel budget
   let gallon = 3; //$3 per gallon
@@ -96,7 +97,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
  const g = 50; //gallons of fuel for the entire trip
 //  const fpg = 150; //cost of fuel for the entire trip
 if  (distance / scenario1); {
-  console.log(g);
+  //console.log(g);
 } 
 //cost of fuel for the entire trip
 // if (g * gallon); {
@@ -105,10 +106,32 @@ if  (distance / scenario1); {
 // another way to find the total  fuel cost
 let fpg;
 fpg = g * gallon;
-console.log(fpg);
+//console.log(fpg);
 
 //how long will the trip take in hours 
 
 let hours;
 hours = distance / mph1;
+//console.log(hours);
+
+// 60 miles at 28 mph
+// gallons of fuel for entire trip
+
+
+const gas = distance / scenario2;
+console.log(gas);
+// cost of gas for the fuel expense
+let fuel;
+fuel = gas * gallon;
+  console.log(fuel);
+
+if (fuel > 175 ) {
+  console.log('fuel is more than $175');
+} else {
+  console.log('fuel budget is good to go');
+}
+
+//how long in hours 
+hours = distance / mph2;
 console.log(hours);
+console.log('the total hours is');
