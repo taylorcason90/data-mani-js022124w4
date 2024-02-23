@@ -12,6 +12,9 @@ sum = n4 / 5;
 
 console.log("the total is", sum);
 
+console.log(n1 > n4);
+
+
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
