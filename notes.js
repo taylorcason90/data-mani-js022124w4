@@ -109,10 +109,12 @@ fpg = g * gallon;
 //console.log(fpg);
 
 //how long will the trip take in hours 
-
 let hours;
 hours = distance / mph1;
 //console.log(hours);
+
+
+
 
 // 60 miles at 28 mph
 // gallons of fuel for entire trip
@@ -135,3 +137,24 @@ if (fuel > 175 ) {
 hours = distance / mph2;
 console.log(hours);
 console.log('the total hours is');
+
+
+//75 miles per hour at 23 miles per gallon
+let fuelforTrip;
+fuelforTrip = distance / scenario3;
+console.log(fuelforTrip);
+// will budget be enough?
+let fuelneeded; //fuel needed for trip
+fuelneeded = fuelforTrip * gallon;
+
+if (fuelneeded>175) {
+  console.log('over budget');
+} else {
+  console.log('under budget as needed');
+}
+
+//how long will it take 
+let hours3;
+hours3 = distance / mph3;
+console.log('the hours it will take is');
+
